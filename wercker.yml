@@ -1,5 +1,5 @@
-box: rocker/r-base
+box: wercker/default
 build:
   steps:
-    - jimhester/r-dependencies:
-        github_packages: jimhester/covr
+    - shellcheck
+    - validate-wercker-step
