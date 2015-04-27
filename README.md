@@ -8,8 +8,6 @@ coverage results to codecov.io.
 In order for this to work you need to set a protected environment variable
 `CODECOV_TOKEN` in your wercker project settings.
 
-This step needs to run after [jimhester/r-dependencies](https://github.com/jimhester/wercker-step-r-dependencies).
-
 ```yaml
     - jimhester/r-codecov
 ```
@@ -38,6 +36,9 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
+
+## 0.0.2
+- Always install github covr prior to running, and install devtools if needed.
 
 ## 0.0.1
 - initial release
