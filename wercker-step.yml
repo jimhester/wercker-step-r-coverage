@@ -1,3 +1,10 @@
 name: r-coverage
-version: 0.0.2
+version: 0.0.3
 description: R package coverage
+keywords:
+  - r
+properties:
+  options:
+    type: string
+    required: false
+    default: ""

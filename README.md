@@ -1,4 +1,4 @@
-# r-check
+# r-lint
 [![wercker status](https://app.wercker.com/status/afe1356d3192d53bbeff7e1f0e0b6bee/s "wercker status")](https://app.wercker.com/project/bykey/afe1356d3192d53bbeff7e1f0e0b6bee)
 
 A step to generate coverage on an R package.  Best used with one of the
@@ -36,6 +36,9 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
+
+## 0.0.3
+- Use run_script function
 
 ## 0.0.2
 - Always install github covr prior to running, and install devtools if needed.
